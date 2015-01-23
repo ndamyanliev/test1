@@ -20,7 +20,6 @@ public class ParseJSON {
 	    	String[] batch = new String[]{"389864065", "391218900", "284233394", "291778246"};
 	    	HashMap<String,String> gents = new HashMap<String,String>();
 			JsonFactory f = new JsonFactory();
-			System.out.println();
 			JsonParser jp = f.createParser(file);
 			System.out.println();
 			// read the record into a tree model,
