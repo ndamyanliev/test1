@@ -14,6 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ParseJSON {
 	
 	public static void main(String[] args) {
+		System.out.println("start");
 	    try {
 	    	File file = new File("D:\\Downloads\\batch3.json");
 	    	String[] batch = new String[]{"389864065", "391218900", "284233394", "291778246"};
